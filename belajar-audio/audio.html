@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio</title>
+  </head>
+  <body>
+    <h1>Belajar Audio</h1>
+    <audio
+      id="audio5"
+      style="width: 100%"
+      controls=""
+      autoplay=""
+      src="https://drive.google.com/uc?id=1rxXdvk9E-0m1kIxrEvi_cOrmDOFxLYwU&amp;export=download"
+    ></audio>
+    <button
+      type="button"
+      style="
+        height: 100%;
+        width: 100%;
+        left: 0px;
+        background-color: #ffffff00;
+        border: none;
+      "
+      onclick="playAudio();"
+    ></button>
+  </body>
+</html>
+
+<script>
+  var x = document.getElementById("audio5");
+  function playAudio() {
+    x.play();
+  }
+</script>
